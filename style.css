@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.color {
+  color: blueviolet;
+}
+.banner__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.width {
+  width: 50%;
+  padding-left: 5%;
+}
+.width img {
+  width: 75%;
+}
+.common__button {
+  text-decoration: none;
+  background-color: rgb(2, 21, 80);
+  padding: 13px 60px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+
+  box-shadow: 2px 2px 2px gray;
+}
+.side-border {
+  border-left: 5px solid #ff5959;
+}
+.banner___info {
+  font-size: 16px;
+}
+.side-border h1 {
+  font-size: 60px;
+  margin-left: 13px;
+}
+
+/* section 2 */
+.misson__wrapper__section__two {
+  margin: 200px 150px;
+}
+.mission___header {
+  text-align: center;
+  color: #13103a;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.misson__wrapper__section__two .span___color {
+  color: #ffad5a;
+}
+.mission__wrapper__for__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.misson__card__one {
+  background: rgba(13, 26, 216, 0.1);
+  border-radius: 26px;
+  width: 300px;
+  padding: 30px;
+}
+.misson__card__two {
+  background: rgba(6, 235, 63, 0.541);
+  border-radius: 26px;
+  width: 300px;
+  padding: 30px;
+}
+.misson__card__three {
+  background: rgba(153, 68, 18, 0.1);
+  border-radius: 26px;
+  width: 300px;
+  padding: 30px;
+}
+.misson__card__img {
+  height: 200px;
+}
+/* three section --3 */
+.develop__wrapper__three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 200px;
+}
+.develop__wrapper__image {
+  height: 400px;
+}
+.develop__right__side__card {
+  height: 400px;
+  padding: 30px;
+  text-align: start;
+}
+.develop___header {
+  text-align: left;
+  color: #13103a;
+  font-size: 48px;
+  font-weight: 700;
+}
+.button__wrapper {
+  margin-top: 50px !important;
+}
+.footer___wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6d3704;
+  padding: 15px;
+  color: white;
+}
+.footer__year__color {
+  color: #ff5959;
+}
+.input {
+  height: 40px;
+  border: 2px solid gray;
+  border-radius: 8px;
+  width: 600px;
+  margin: 10px;
+}
+
+::placeholder {
+  color: rgb(221, 153, 153);
+}
+.form__submission__five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
